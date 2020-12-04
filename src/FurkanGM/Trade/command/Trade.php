@@ -22,7 +22,7 @@ class Trade extends Command implements PluginIdentifiableCommand
      */
     public function __construct()
     {
-        parent::__construct("trade", "Takas komutu", "/trade <player>", ["takas"]);
+        parent::__construct("trade", "Takas komutu", "/trade <игрок>", ["takas"]);
         $this->plugin = Main::getInstance();
     }
 
